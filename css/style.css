@@ -12,7 +12,7 @@
 
 /****************** HEADER *****************/
 header {
-  background-color: crimson;
+  background-color: #ff6900;
   margin-bottom: 3rem;
 }
 .nav-bar {
@@ -20,7 +20,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 0.5rem;
+  padding: 0.8rem;
 }
 
 a {
@@ -38,7 +38,7 @@ a:hover {
 
 .nav-sides a,
 i {
-  padding: 0 0.5rem;
+  padding: 0 0.2rem;
 }
 .nav-right i {
   color: white;
@@ -76,21 +76,61 @@ i {
 }
 
 .square {
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   background-color: white;
   position: absolute;
-  left: 21rem;
+  left: 22rem;
   top: 1rem;
 }
 #heart-icon {
-  font-size: 2rem;
+  font-size: 1rem;
   position: absolute;
-  left: 0.6rem;
+  left: 0.8rem;
   top: 1rem;
 }
+.rectangul-box {
+  font-size: 0.6rem;
+  position: absolute;
+  bottom: 5rem;
+  font-weight: bold;
+}
+.rectangul-red {
+  width: 4rem;
+  height: 2rem;
+  background-color: red;
+  color: white;
+  padding: 0.2rem 0.4rem;
+}
+
+.rectangul-green {
+  width: 8rem;
+  height: 2rem;
+  background-color: green;
+  color: white;
+  padding: 0.2rem 0.4rem;
+}
+
 /****************** FOOTER *****************/
-.box-footer {
+footer {
   background-color: black;
+  color: white;
+}
+.footer-box {
   min-height: 5rem;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 0.7rem;
+  line-height: 1.4rem;
+}
+.footer-box span {
+  padding-right: 0.6rem;
+}
+.footer-icon {
+  font-size: 1rem;
+}
+.footer-icon a:hover {
+  color: red;
 }
