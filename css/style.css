@@ -9,20 +9,14 @@
 .flex-column {
   display: flex;
 }
-.debug,
-.box-model,
-.box-top,
-.box-bottom {
-  border: 2px dashed black;
-}
 
 /****************** HEADER *****************/
 header {
   background-color: crimson;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 .nav-bar {
-  width: 70%;
+  width: 60%;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
@@ -42,6 +36,10 @@ a:hover {
   width: 7rem;
 }
 
+.nav-sides a,
+i {
+  padding: 0 0.5rem;
+}
 .nav-right i {
   color: white;
 }
@@ -49,19 +47,24 @@ a:hover {
 .nav-right i:hover {
   color: black;
 }
+
 /****************** MAIN *****************/
 
 .box {
-  flex-direction: column;
+  justify-content: center;
 }
 
 .box-model {
-  width: 30rem;
+  width: 25rem;
   position: relative;
+  margin: 0 0.8rem 4rem 0.8rem;
 }
 
 .box-model img {
-  width: 30rem;
+  width: 100%;
+}
+.box-bottom {
+  font-size: 0.7rem;
 }
 .txt-red {
   font-weight: bold;
@@ -77,13 +80,17 @@ a:hover {
   height: 4rem;
   background-color: white;
   position: absolute;
-  left: 26.1rem;
+  left: 21rem;
   top: 1rem;
 }
 #heart-icon {
   font-size: 2rem;
   position: absolute;
-  left: 1rem;
+  left: 0.6rem;
   top: 1rem;
 }
 /****************** FOOTER *****************/
+.box-footer {
+  background-color: black;
+  min-height: 5rem;
+}
