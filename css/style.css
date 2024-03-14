@@ -15,6 +15,7 @@ header {
   background-color: #ff6900;
   margin-bottom: 3rem;
 }
+
 .nav-bar {
   width: 60%;
   justify-content: space-between;
@@ -40,6 +41,7 @@ a:hover {
 i {
   padding: 0 0.2rem;
 }
+
 .nav-right i {
   color: white;
 }
@@ -49,7 +51,6 @@ i {
 }
 
 /****************** MAIN *****************/
-
 .box {
   justify-content: center;
 }
@@ -63,9 +64,11 @@ i {
 .box-model img {
   width: 100%;
 }
+
 .box-bottom {
   font-size: 0.7rem;
 }
+
 .txt-red {
   font-weight: bold;
   color: red;
@@ -83,21 +86,25 @@ i {
   left: 22rem;
   top: 1rem;
 }
+
 #heart-icon {
   font-size: 1rem;
   position: absolute;
   left: 0.8rem;
   top: 1rem;
 }
+
 #heart-icon:hover {
   color: red;
 }
+
 .rectangle-box {
   font-size: 0.6rem;
   position: absolute;
   bottom: 5rem;
   font-weight: bold;
 }
+
 .rectangle-red {
   width: 4rem;
   height: 2rem;
@@ -118,15 +125,18 @@ i {
   position: absolute;
   opacity: 1;
 }
+
 .model:hover {
   opacity: 0;
   transition: 500ms;
 }
+
 /****************** FOOTER *****************/
 footer {
   background-color: black;
   color: white;
 }
+
 .footer-box {
   min-height: 5rem;
   width: 60%;
@@ -136,12 +146,15 @@ footer {
   font-size: 0.7rem;
   line-height: 1.4rem;
 }
+
 .footer-box span {
   padding-right: 0.6rem;
 }
+
 .footer-icon {
   font-size: 1rem;
 }
+
 .footer-icon a:hover {
   color: red;
 }
