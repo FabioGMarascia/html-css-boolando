@@ -19,11 +19,24 @@ header {
 }
 
 .nav-bar {
-  width: 60%;
+  width: 1280px;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   padding: 0.8rem;
+}
+
+.nav-center {
+  width: 40%;
+  text-align: center;
+}
+
+.nav-sides {
+  width: 30%;
+}
+
+.nav-right {
+  text-align: right;
 }
 
 a {
@@ -51,10 +64,6 @@ i {
 .nav-right i:hover {
   color: black;
   cursor: pointer;
-}
-
-.nav-center {
-  padding-right: 6rem;
 }
 
 /****************** MAIN *****************/
@@ -155,7 +164,7 @@ footer {
 
 .footer-box {
   min-height: 5rem;
-  width: 60%;
+  width: 1260px;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
