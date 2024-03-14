@@ -89,6 +89,9 @@ i {
   left: 0.8rem;
   top: 1rem;
 }
+#heart-icon:hover {
+  color: red;
+}
 .rectangle-box {
   font-size: 0.6rem;
   position: absolute;
