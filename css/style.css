@@ -148,7 +148,6 @@ i {
 
 .model {
   position: absolute;
-  opacity: 1;
 }
 
 .model:hover {
