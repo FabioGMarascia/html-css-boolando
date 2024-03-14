@@ -15,7 +15,7 @@ header {
   margin-bottom: 3rem;
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .nav-bar {
@@ -53,16 +53,24 @@ i {
   cursor: pointer;
 }
 
+.nav-center {
+  padding-right: 6rem;
+}
+
 /****************** MAIN *****************/
 .box {
   justify-content: center;
   padding-top: 6rem;
 }
 
+.box2 {
+  justify-content: center;
+}
+
 .box-model {
   width: 25rem;
   position: relative;
-  margin: 0 0.8rem 3rem 0.8rem;
+  margin: 0 0.8rem 3em 0.8rem;
 }
 
 .box-model img {
