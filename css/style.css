@@ -13,6 +13,9 @@
 header {
   background-color: #ff6900;
   margin-bottom: 3rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .nav-bar {
@@ -53,12 +56,13 @@ i {
 /****************** MAIN *****************/
 .box {
   justify-content: center;
+  padding-top: 6rem;
 }
 
 .box-model {
   width: 25rem;
   position: relative;
-  margin: 0 0.8rem 4rem 0.8rem;
+  margin: 0 0.8rem 3rem 0.8rem;
 }
 
 .box-model img {
