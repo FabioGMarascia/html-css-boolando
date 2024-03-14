@@ -5,8 +5,7 @@
   font-family: sans-serif;
 }
 
-.flex-row,
-.flex-column {
+.flex-row {
   display: flex;
 }
 
@@ -48,6 +47,7 @@ i {
 
 .nav-right i:hover {
   color: black;
+  cursor: pointer;
 }
 
 /****************** MAIN *****************/
@@ -72,10 +72,12 @@ i {
 .txt-red {
   font-weight: bold;
   color: red;
+  font-size: 0.8rem;
 }
 
 .txt-barred {
   text-decoration: line-through;
+  font-size: 0.8rem;
 }
 
 .square {
@@ -97,6 +99,7 @@ i {
 
 #heart-icon:hover {
   color: red;
+  cursor: pointer;
 }
 
 .rectangle-box {
@@ -129,7 +132,7 @@ i {
 
 .model:hover {
   opacity: 0;
-  transition: 500ms;
+  transition: 600ms;
 }
 
 /****************** FOOTER *****************/
