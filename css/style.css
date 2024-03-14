@@ -85,6 +85,7 @@ i {
   position: absolute;
   left: 22rem;
   top: 1rem;
+  z-index: 1;
 }
 
 #heart-icon {
