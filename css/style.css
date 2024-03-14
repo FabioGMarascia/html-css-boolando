@@ -114,6 +114,14 @@ i {
   padding: 0.2rem 0.4rem;
 }
 
+.model {
+  position: absolute;
+  opacity: 1;
+}
+.model:hover {
+  opacity: 0;
+  transition: 500ms;
+}
 /****************** FOOTER *****************/
 footer {
   background-color: black;
